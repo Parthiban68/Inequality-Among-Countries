@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #f1fbff;
+}
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.w-100 {
+	height: 100vh;
+}
+
+.carousel-inner:before {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+
+.card{
+	margin-top: 10px;
+}
+
+.Thingtodo .card-body i {
+	font-size: 50px;
+}
+
+.Target .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.social{
+	font-size: 30px;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
